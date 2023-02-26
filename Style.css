@@ -1,0 +1,359 @@
+
+
+
+:root{
+    --main-color : #F44336; 
+}
+
+
+
+body{
+    font-family: "Gill Sans";
+}
+
+
+.navbar{
+    width: 200px;
+    height: 400px;
+    color: white;
+    background-color: var(--main-color);
+    margin: 0;
+    font-family: "Gill Sans", sans-serif;
+    position: fixed;
+}
+
+h3{
+    width: 50%;
+    padding: 30px;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    transition: all 0.3s;
+}
+
+
+nav li{
+    color: white;
+    margin: 15px 0;
+    width: 30%;
+    transition: all 0.5s;
+}
+
+nav li:hover{
+    background-color: white;
+    color: var(--main-color);
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: var(--main-color);
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+
+p{
+    color: rgb(59, 58, 58);
+}
+
+
+
+
+.container{
+    width: calc(100% - 200px);
+    margin: 0px 25px;
+    font-family: "Gill Sans", sans-serif;
+    padding-top: 30px;
+    position: relative;
+    margin-left: 230px;
+}
+
+.section3,.section2,#Designers,#Services{
+    margin-top: 80px;
+}
+
+.All{
+    display: flex;
+}
+
+h2{
+    color: var(--main-color);
+}
+
+
+.boldline{
+    width: 40px;
+    border-radius: 10px;
+    height: 7px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boldline div{
+    width: 30px;
+    height: 1px;
+    background-color: white;
+}
+
+/* Start Styling Images  */
+
+.images{
+    width: calc(100% - 200px);
+    min-height: 600px;
+    display: grid;
+    margin-top: 15px;
+}
+
+.line1,.line2,.line3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+    width: 50%;
+    height: 299px;
+    opacity: 0.7;
+    
+}
+
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover{
+    opacity: 1;
+}
+
+
+.img1 img, .img2 img,.img3 img,.img4 img,.img5 img,.img6 img{
+    width: 100%;
+    height: 295px;
+    margin-bottom: 5px;
+}
+
+.img1,.img3,.img5{
+    margin-right: 10px;
+}
+.img2,.img4,.img6{
+    margin-left: 10px;
+}
+
+/* End Styling Images  */
+
+
+.para_Services{
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(70, 68, 68);
+}
+
+.parabold{
+    font-weight: bold;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+}
+
+.card{
+    width: 33%;
+    background-color: #eee;
+}
+
+.D-img1{
+    width: 100%;
+    
+}
+
+
+
+
+img{
+    width: 100%;
+}
+
+.cardbody{
+    padding: 10px;
+}
+
+
+.h3-card {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    color: rgb(126, 117, 117);
+    width: 100%;
+}
+
+.card2{
+    margin: 0px 10px;
+}
+
+
+/* Start styling Packages  */
+
+
+.tables ul {
+    width: 50%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.tables ul li{
+    width: 100%;
+    list-style: none;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(216, 210, 210);
+    text-align: center;
+}
+
+.tables ul li:first-child{
+    padding: 30px 0px;
+    font-size: large;
+}
+
+.tables #ul2 li:last-child button{
+    color: #ffffff;
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    border: none;
+}
+
+
+.tables{
+    display: flex;
+}
+
+.tables ul li button{
+    color: rgb(78, 77, 77);
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+
+.tables ul li b{
+    font-size:x-large;
+    font-weight: 700;
+}
+
+
+.tables ul li #btnRed:hover{
+    background-color: rgb(97, 96, 96);
+}
+
+.tables ul li #btnWhite:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+
+
+#ul1{
+    background-color: #eee;
+    margin-right: 5px;
+}
+#ul2{
+    background-color: #eee;
+    margin-left: 5px;
+}
+
+#ul1 li.firstLi{
+    background-color: #747070;
+    color: white;
+}
+#ul1 li.firstLi:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+#ul2 li.firstLi{
+    background-color: var(--main-color);
+    color: white;
+}
+#ul2 li.firstLi:hover{
+    background-color: #747070;
+    color: white;
+}
+
+
+
+
+
+/* End styling Packages  */
+
+
+
+/* Start styling Contact  */
+
+
+
+.section3 input{
+    width: 100%;
+    color: #424141;
+}
+
+
+.section3 input{
+    padding: 6px 0px;
+    border: 1px solid rgb(204, 199, 199);
+    margin-bottom: 10px;
+}
+
+.section3 input[type='button']{
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 0;
+    border: none;
+}
+.section3 input[type='button']:hover{
+    background-color: rgb(80, 79, 79);
+}
+
+form{
+    color: #413f3f;
+}
+
+
+
+
+/* End styling Contact  */
+
+
+
+/* Start styling Footer  */
+
+footer{
+    background-color: #eee;
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer i{
+    margin: 0px 100px;
+    font-size: x-large;
+    color: var(--main-color);
+}
+footer i:hover{
+    color: rgb(59, 58, 58);
+}
+
+
+
+
+/* End styling Footer  */
+
+
+
+
+
+
